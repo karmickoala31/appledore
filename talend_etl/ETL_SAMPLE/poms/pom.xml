@@ -16,6 +16,7 @@
     <module>jobs/process/customerprofile_0.1</module>
     <module>jobs/process/internetsalesaggregationbyproductcategory_0.1</module>
     <module>jobs/process/demo/onboardingdemojob_0.1</module>
+    <module>jobs/process/demo/flatfile_test_0.1</module>
   </modules>
   <properties>
     <talend.project.name>ETL_SAMPLE</talend.project.name>
