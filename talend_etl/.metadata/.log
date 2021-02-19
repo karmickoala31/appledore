@@ -786,3 +786,16 @@ java.lang.Exception: Project 'TEST_PROJECT' is not open.
 !ENTRY org.eclipse.core.resources 2 10035 2021-02-19 10:52:26.529
 !MESSAGE The workspace will exit with unsaved changes in this session.
 >>>>>>> fcad43c04df5b8d06b53468db5807e7ab77cdf4a
+
+!ENTRY org.eclipse.ui.ide 4 4 2021-02-19 13:55:30.430
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2021-02-19 13:55:30.447
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2021-02-19 13:55:30.447
+!MESSAGE The project description file (.project) for '.JETEmitters' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2021-02-19 13:55:30.447
+!MESSAGE The project description file (.project) for 'ETL_SAMPLE_ROUTINES' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-02-19 13:55:31.524
+!MESSAGE The workspace will exit with unsaved changes in this session.
