@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_lmUiYE7wEeuyu6ZSDbL55A" name="talend_test_db" id="_g67xUE7wEeuyu6ZSDbL55A" label="talend_test_db" dataPackage="_w-yIEE7zEeuyu6ZSDbL55A" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://DESKTOP-FLQRB1I:1433/talend_test_db;" dbVersionString="JTDS" Port="1433" Username="" Password="" ServerName="DESKTOP-FLQRB1I" DatasourceName="" FileFieldName="" SID="talend_test_db" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo">
+    <taggedValue xmi:id="_lmUiYU7wEeuyu6ZSDbL55A" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_lnNTME7wEeuyu6ZSDbL55A" tag="package filter" value=""/>
+    <taggedValue xmi:id="_lnNTMU7wEeuyu6ZSDbL55A" tag="Status" value=""/>
+    <taggedValue xmi:id="_lnNTMk7wEeuyu6ZSDbL55A" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_lnNTM07wEeuyu6ZSDbL55A" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_lnNTNE7wEeuyu6ZSDbL55A" tag="Description" value=""/>
+    <taggedValue xmi:id="_lnNTNU7wEeuyu6ZSDbL55A" tag="Author" value=""/>
+    <taggedValue xmi:id="_lnNTNk7wEeuyu6ZSDbL55A" tag="otherParameter"/>
+    <taggedValue xmi:id="_loH5ME7wEeuyu6ZSDbL55A" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_loH5MU7wEeuyu6ZSDbL55A" tag="DB ProductVersion" value="15.00.2000"/>
+    <taggedValue xmi:id="_loH5Mk7wEeuyu6ZSDbL55A" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_lmUiYk7wEeuyu6ZSDbL55A" key="CONN_PARA_KEY_USERNAME" value=""/>
+    <parameters xmi:id="_vqyJkE7zEeuyu6ZSDbL55A" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_w-yIEE7zEeuyu6ZSDbL55A" name="talend_test_db" dataManager="_lmUiYE7wEeuyu6ZSDbL55A">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_w-yIEU7zEeuyu6ZSDbL55A" name="dbo"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

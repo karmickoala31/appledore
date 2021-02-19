@@ -1,0 +1,194 @@
+!SESSION 2021-02-19 09:54:36.904 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/C:/Users/gaure/OneDrive/Documents/repositories/appledore/talend_etl/
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2021-02-19 09:54:37.913
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2021-02-19 09:54:37.913
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:54:40.143
+!MESSAGE 2021-02-19 09:54:40,143 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.talend.platform.logging 2 0 2021-02-19 09:55:15.565
+!MESSAGE 2021-02-19 09:55:15,565 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 2 0 2021-02-19 09:55:32.034
+!MESSAGE 2021-02-19 09:55:32,034 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2021-02-19 09:55:32.210
+!MESSAGE 2021-02-19 09:55:32,210 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:55:44.583
+!MESSAGE 2021-02-19 09:55:44,568 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ETL_SAMPLE_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:55:44.583
+!MESSAGE 2021-02-19 09:55:44,583 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ETL_SAMPLE_ROUTINES/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:55:44.599
+!MESSAGE 2021-02-19 09:55:44,599 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ETL_SAMPLE_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:55:44.599
+!MESSAGE 2021-02-19 09:55:44,599 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ETL_SAMPLE_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:55:47.650
+!MESSAGE 2021-02-19 09:55:47,650 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\gaure\OneDrive\Documents\repositories\appledore\talend_etl\ETL_SAMPLE\poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:55:47.650
+!MESSAGE 2021-02-19 09:55:47,650 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\maven_user_settings.xml install -llr -N -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:55:58.940
+!MESSAGE 2021-02-19 09:55:58,940 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\gaure\OneDrive\Documents\repositories\appledore\talend_etl\ETL_SAMPLE\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:55:58.946
+!MESSAGE 2021-02-19 09:55:58,946 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:56:04.264
+!MESSAGE 2021-02-19 09:56:04,264 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com logged on etl_sample
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:56:05.689
+!MESSAGE 2021-02-19 09:56:05,689 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 2 0 2021-02-19 09:56:06.505
+!MESSAGE 2021-02-19 09:56:06,505 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2021-02-19 09:56:06.522
+!MESSAGE 2021-02-19 09:56:06,522 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-02-19 09:58:30.961
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2021-02-19 09:58:33.641 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_261
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2021-02-19 09:58:34.649
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2021-02-19 09:58:34.649
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:58:37.043
+!MESSAGE 2021-02-19 09:58:37,043 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\studio.keys
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-02-19 09:58:37.322
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:58:41.008
+!MESSAGE 2021-02-19 09:58:41,008 INFO  org.talend.repository.ui.login.LoginProjectPage  - validate updatesite...
+
+
+!ENTRY org.talend.platform.logging 2 0 2021-02-19 09:58:49.816
+!MESSAGE 2021-02-19 09:58:49,816 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:58:54.918
+!MESSAGE 2021-02-19 09:58:54,918 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ETL_SAMPLE_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:58:54.934
+!MESSAGE 2021-02-19 09:58:54,934 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /ETL_SAMPLE_ROUTINES/src/main/java overlaps with sources folder /ETL_SAMPLE_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:58:54.959
+!MESSAGE 2021-02-19 09:58:54,959 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /ETL_SAMPLE_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:58:54.974
+!MESSAGE 2021-02-19 09:58:54,974 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /ETL_SAMPLE_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:59:00.773
+!MESSAGE 2021-02-19 09:59:00,773 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\gaure\OneDrive\Documents\repositories\appledore\talend_etl\ETL_SAMPLE\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:59:00.781
+!MESSAGE 2021-02-19 09:59:00,781 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Talend\TOS_DI-Win32-20200219_1130-V7.3.1\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:59:05.563
+!MESSAGE 2021-02-19 09:59:05,563 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com logged on etl_sample
+
+
+!ENTRY org.talend.platform.logging 1 0 2021-02-19 09:59:06.726
+!MESSAGE 2021-02-19 09:59:06,726 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 2 0 2021-02-19 09:59:20.476
+!MESSAGE 2021-02-19 09:59:20,476 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
+
+!ENTRY org.talend.platform.logging 2 0 2021-02-19 09:59:20.496
+!MESSAGE 2021-02-19 09:59:20,496 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: esb-java-11-group
+
