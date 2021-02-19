@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 INDEX VERSION 1.131+C:\Users\gaure\OneDrive\Documents\repositories\appledore\talend_etl\.metadata\.plugins\org.eclipse.jdt.core
+=======
+INDEX VERSION 1.131+/Users/gchavan/repositories/appledore/talend_etl/.metadata/.plugins/org.eclipse.jdt.core
+>>>>>>> fcad43c04df5b8d06b53468db5807e7ab77cdf4a

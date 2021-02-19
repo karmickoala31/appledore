@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_RgnAIXLFEeuri7rwVtV8BQ" label="appledore_etl" description="" language="java" technicalLabel="APPLEDORE_ETL" local="true" author="_Rh8c4HLFEeuri7rwVtV8BQ" itemsRelationVersion="1.3" bigData="false">
+    <migrationTask xmi:id="_RkQxEHLFEeuri7rwVtV8BQ" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_Rh8c4HLFEeuri7rwVtV8BQ" login="gchavan@gnshealthcare.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
+</xmi:XMI>
